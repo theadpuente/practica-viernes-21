@@ -1,7 +1,5 @@
 @import url(./reset/reset.css);
 
-/* Fuentes */
-
 p {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 150%;
@@ -21,6 +19,7 @@ a {
     font-weight: 200;
     font-size: 14px;
     color: black;
+    letter-spacing: 1px;
 
 }
 
@@ -45,10 +44,9 @@ h3 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.2rem;
     font-weight: 400;
-    font-stretch: extra-expanded;
+    letter-spacing: 2px;
 }
 
-/* Structure */
 
 main {
 
@@ -102,8 +100,6 @@ section .firstcontainer figure {
 img {
     width: 100%
 }
-
-
 
 
 section .secondcontainer {
