@@ -1,8 +1,6 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+@import url(./reset/reset.css);
+
+/* Fuentes */
 
 p {
     font-family: Arial, Helvetica, sans-serif;
@@ -28,21 +26,29 @@ a {
 
 h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 46px;
+    font-size: 3rem;
     font-weight: 600;
+    margin-bottom: 48px;
 
 }
 
 h2 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+
+
 }
 
 h3 {
 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
     font-weight: 400;
+    font-stretch: extra-expanded;
 }
 
+/* Structure */
 
 main {
 
@@ -61,7 +67,7 @@ section {
 section .firstcontainer {
 
     display: flex;
-    background-color: #eecf39;
+    position: relative;
 
 
 }
@@ -69,16 +75,33 @@ section .firstcontainer {
 section .firstcontainer article {
     display: flex;
     flex-direction: column;
-    gap: 16px;
-    max-width: 350px;
-    padding: 32px;
+    gap: 20px;
+    max-width: 300px;
+    padding: 20px;
 
 }
 
+section .thirdcontainer {
+    width: 100%;
+    height: 450px;
+    bottom: 0;
+    background-color: #eecf39;
+    position: absolute;
+    z-index: -1;
+}
+
+section .firstcontainer figure {
+
+    max-height: 400px;
+    overflow: hidden;
+}
 
 img {
     width: 100%
 }
+
+
+
 
 section .secondcontainer {
     padding: 24px;
@@ -88,7 +111,7 @@ section .secondcontainer {
 section .secondcontainer .sidebar {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 20px;
     max-width: 280px;
     padding: 24px;
 
