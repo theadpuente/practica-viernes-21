@@ -1,0 +1,133 @@
+@import url(./reset/reset.css);
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(248, 247, 243);
+}
+
+img {
+    width: 100%;
+    display: block;
+
+}
+
+header {
+    background-color: rgb(248, 247, 243);
+
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 16px 24px;
+    max-width: 1200px;
+}
+
+header nav div {
+    width: 130px;
+
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0px 8px;
+}
+
+header nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+main {
+    margin: 0 auto;
+}
+
+.herosection {
+
+    background-image: url(./images/fondo.jpeg);
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.471);
+    background-blend-mode: multiply;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.herosection h1 {
+    font-size: 56px;
+    line-height: 120%;
+    color: white;
+    font-weight: 700;
+
+}
+
+.herosection p {
+    font-size: 20px;
+    line-height: 150%;
+    color: white;
+    font-weight: 200;
+
+}
+
+.principal {
+
+    font-size: 14px;
+    background-color: grey;
+    border: solid 1px black;
+    color: white;
+    padding: 0 16px;
+    height: 35px;
+    border-radius: 5px;
+
+}
+
+.secondary {
+    font-size: 14px;
+    background-color: rgba(128, 128, 128, 0);
+    border: solid 1px rgb(0, 55, 255);
+    color: white;
+    padding: 0 16px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.secondsection {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1200px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-top: 5px solid yellow;
+    position: relative;
+    bottom: 60px;
+}
+
+.secondsection article {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 350px;
+    padding: 16px;
+}
+
+.secondsection p {
+    font-size: 14px;
+    line-height: 130%;
+}
+
+.secondsection span {
+    color: rgb(0, 110, 255);
+}

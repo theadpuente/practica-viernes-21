@@ -86,7 +86,7 @@ section .firstcontainer article {
 
 section .thirdcontainer {
     width: 100%;
-    height: 450px;
+    height: 350px;
     bottom: 0;
     background-color: #eecf39;
     position: absolute;
