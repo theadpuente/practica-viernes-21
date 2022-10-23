@@ -21,7 +21,7 @@ header nav {
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-    padding: 16px 24px;
+    padding: 16px 28px;
     max-width: 1200px;
 }
 
@@ -77,40 +77,39 @@ main {
     line-height: 150%;
     color: white;
     font-weight: 200;
+    letter-spacing: 3px;
 
 }
 
 .principal {
 
-    font-size: 14px;
-    background-color: grey;
+    font-size: 16px;
+    background-color: rgb(129, 129, 129);
     border: solid 1px black;
     color: white;
-    padding: 0 16px;
-    height: 35px;
+    padding: 8px 16px;
     border-radius: 5px;
 
 }
 
 .secondary {
-    font-size: 14px;
+    font-size: 16px;
     background-color: rgba(128, 128, 128, 0);
-    border: solid 1px rgb(0, 55, 255);
+    border: solid 1px rgb(0, 133, 200);
     color: white;
-    padding: 0 16px;
-    height: 35px;
+    padding: 8px 16px;
     border-radius: 5px;
 }
 
 .secondsection {
     display: flex;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: center;
     margin: 0 auto;
     max-width: 1200px;
     background-color: rgb(255, 255, 255);
     padding: 20px;
-    border-top: 5px solid yellow;
+    border-top: 8px solid yellow;
     position: relative;
     bottom: 60px;
 }
@@ -118,7 +117,7 @@ main {
 .secondsection article {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 8px;
     width: 350px;
     padding: 16px;
 }
@@ -126,8 +125,10 @@ main {
 .secondsection p {
     font-size: 14px;
     line-height: 130%;
+    color: rgb(132, 132, 132);
+    font-weight: 500;
 }
 
 .secondsection span {
-    color: rgb(0, 110, 255);
+    color: rgb(0, 142, 212);
 }
